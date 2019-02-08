@@ -8,7 +8,7 @@ public class Commands {
         switch (scanner.nextLine()) {
             case "l":
                 System.out.println("Tasks for the day:");
-                ListTodos.listTodos();
+                ListTodos.listTodos(); 
                 break;
             case "a":
                 System.out.println("Added");
