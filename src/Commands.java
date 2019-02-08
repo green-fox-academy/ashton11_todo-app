@@ -15,6 +15,7 @@ public class Commands {
                 System.out.println("Added to tasks!");
                 break;
             case "r":
+                RemoveTodo.removeTask();
                 System.out.println("Removed");
             break;
             case "c":
